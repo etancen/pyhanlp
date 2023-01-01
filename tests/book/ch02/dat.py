@@ -40,7 +40,7 @@ class DoubleArrayTrie(object):
         b = 0
         for i in range(0, len(key)):  # len(key)次状态转移
             p = self.transition(key[i], b)
-            if p is not -1:
+            if p != -1:
                 b = p
             else:
                 return None
