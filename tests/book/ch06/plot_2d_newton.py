@@ -5,7 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+plt.rcParams['font.sans-serif'] = ['Mono']  # 用来正常显示中文标签
 plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 leafNode = dict(boxstyle="round4", fc="0.8")
 arrow_args = dict(arrowstyle="<-")
